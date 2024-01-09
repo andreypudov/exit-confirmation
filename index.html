@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Home - Exit Confirmation</title>
+
+    <link rel="icon" type="image/png" href="images/video.png" />
+    <link rel = 'stylesheet' href = 'styles.css' />
+
+    <script src = 'script.js'></script>
+  </head>
+  <body class = 'home' onbeforeunload="return exitConfirmation()">
+    <img class = 'logo' src = 'images/video.png' alt="Logo with the image of a video camera " />
+    <a class = 'button default' href = 'https://andreypudov.com'>Leave the page</a>
+
+    <script>
+    function exitConfirmation() {
+        return "Are you sure you want to leave this page?";
+    }
+    </script>
+  </body>
+</html>
+`
